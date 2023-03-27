@@ -83,8 +83,8 @@ FROM Products p
 INNER JOIN [Order Details] od ON od.ProductID = p.ProductID 
 INNER JOIN Orders o ON o.OrderID = od.OrderID
 INNER JOIN Customers c  ON c.CustomerID = o.CustomerID 
-group by p.ProductName, c.City 
-order by SUM(od.Quantity) DESC
+GROUP BY p.ProductName, c.City 
+ORDER BY SUM(od.Quantity) DESC
 
 
 -- Question 9A With Subquery
