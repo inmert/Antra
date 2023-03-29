@@ -1,0 +1,40 @@
+1. What type would you choose for the following “numbers”?
+
+A person’s telephone number - String
+A person’s height - String
+A person’s age - Int
+A person’s gender (Male, Female, Prefer Not To Answer) - String
+A person’s salary - Float
+A book’s ISBN - Float
+A book’s price - Float
+A book’s shipping weight - Double
+A country’s population - Double
+The number of stars in the universe - String
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business) - Int
+
+2. What are the difference between value type and reference type variables?
+- A Value Type holds the data within its own memory allocation and a Reference Type contains a pointer to another memory location that holds the real data
+
+3. What happens when you divide an int variable by 0?
+- Compile Error
+
+4. What happens when you divide a double variable by 0?
+- Infinity
+
+5. What happens when you overflow an int variable, that is, set it to a value beyond its range?
+- Overflow Exception
+
+
+6. What is the difference between x = y++; and x = ++y;?
+- The first one sets x to y+1, the second one sets x to x+y
+
+7. What is the difference between break, continue, and return when used inside a loop
+statement?
+- Break terminates the loop iteration, Continue start the next iteration and return exits the loop with the value.
+
+8. What are the three parts of a for statement and which of them are required?
+- for (initializer, condition, update)
+Initializer is executed (one time) before the execution of the code block.
+Condition defines the condition for executing the code block.
+Update is executed (every time) after the code block has been executed.
