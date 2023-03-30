@@ -1,0 +1,99 @@
+1.What are the six combinations of access modifier keywords and what do they do?
+- public, protected, internal, protected internal, private, private protected
+
+
+2.What is the difference between the static, const, and readonly keywords when applied to a type member?
+- A Static type variable's value can be assigned at runtime or assigned at compile time and changed at runtime,
+The cost keyword declares a constant type variable. That means a variable of which the value is constant but at compile time. And it's mandatory to assign a value to it.
+Readonly is the keyword whose value we can change during runtime or assign it at run time but only through the non-static constructor.
+
+
+3. What does a constructor do?
+- A constructor is a special method of the class which gets automatically invoked whenever an instance of the class is created
+
+
+4. Why is the partial keyword useful?
+- This keyword is also useful to split the functionality of methods, interfaces, or structure into multiple files.
+
+
+5. What is a tuple?
+- C# tuple is a data structure that is used to store sequence of elements. Tuple with n elements are known as n-tuple
+
+
+6. What does the C# record keyword do?
+- Records provide a way to create immutable value types. The record keyword defines a record type like enums, structs, and classes
+
+
+7. What does overloading and overriding mean?
+- Overloading means creating multiple methods in a class with the same names but different Parameters,
+Overriding means having two methods with the same name and same parameters; one should be in the base class, and another method should be in a derived class. You can override the functionality of a base class method to create the same name method
+
+
+8. What is the difference between a field and a property?
+- Fields are member variables or member instances of a class. Properties are an abstraction to get and set their values.
+
+
+9. How do you make a method parameter optional?
+- We can make the method parameter optional by specifying a default value of null 
+
+
+10. What is an interface and how is it different from abstract class?
+- Interface enables us to determine the functionality or functions but cannot implement that. It can also contain properties, methods, events, and indexers just like the class. However, the execution part will depend on the derived class as the interface includes only the declaration of the members.
+
+
+12. True/False. Polymorphism allows derived classes to provide different implementations
+of the same method.
+- True
+
+
+13. True/False. The override keyword is used to indicate that a method in a derived class is
+providing its own implementation of a method.
+- True
+
+
+14. True/False. The new keyword is used to indicate that a method in a derived class is
+providing its own implementation of a method.
+- False
+
+
+15. True/False. Abstract methods can be used in a normal (non-abstract) class.
+- False
+ 
+
+16. True/False. Normal (non-abstract) methods can be used in an abstract class. 
+- True
+
+
+17. True/False.Derived classes can override methods that were virtual in the base class. 
+- True
+
+
+18. True/False. Derived classes can override methods that were abstract in the base class. 
+- True
+
+
+19. True/False. In a derived class, you can override a method that was neither virtual non abstract in the
+base class.
+- True
+
+
+20. True/False. A class that implements an interface does not have to provide an
+implementation for all of the members of the interface.
+- False
+
+
+21. True/False. A class that implements an interface is allowed to have other members that
+aren’t defined in the interface.
+- True
+
+
+22. True/False. A class can have more than one base class.
+- False
+
+
+23. True/False. A class can implement more than one interface.What is meant by the terms managed resource and unmanaged resource in .NET
+- True
+
+
+24. What's the purpose of Garbage Collector in .NET?
+- Garbage collection is a memory management technique used in the .NET Framework and many other programming languages. In C#, the garbage collector is responsible for managing memory and automatically freeing up memory that is no longer being used by the application.
